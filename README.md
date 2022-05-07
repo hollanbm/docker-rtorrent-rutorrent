@@ -6,7 +6,7 @@ The parent container uses s6-overlay to bootstrap the container and setup the sc
 
 This script uses sed to find/replace occurences of `/downloads` with the value of the environment variable `RU_DOWNLOAD_DIR`
 
-You can find this image over on docker hub: https://hub.docker.com/repository/docker/mrbucket101/rtorrent-rutorrent/
+You can find this image over on docker hub: https://hub.docker.com/r/mrbucket101/rtorrent-rutorrent
 
 To change the downloads directory set the value of `RU_DOWNLOAD_DIR` to whatever path (ie: `/torrents`)within the container you like. Don't forget to also map this path outside the container
 * no trailing slash on RU_DOWNLOAD_DIR
